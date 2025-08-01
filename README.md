@@ -1,1 +1,1 @@
-# SD_CLIP
+In this project, I generate 150 images (3 prompts, 50 images each) using the Stable Diffusion v1.4 model. I extract CLIP embeddings, perform PCA on them, and use the k-means algorithm for clustering. I then identify the points farthest from the cluster centers and visualize the results. I want to check whether outliers in the embedding space are also outliers in the visual domain; specifically, I will test if the images corresponding to these outliers look unlike those generated from the prompt or differ from other images generated with the same prompt.
